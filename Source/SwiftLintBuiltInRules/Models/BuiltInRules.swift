@@ -188,6 +188,7 @@ public let builtInRules: [any Rule.Type] = [
     StaticOperatorRule.self,
     StrictFilePrivateRule.self,
     StrongIBOutletRule.self,
+    StrongSelfAsThisRule.self,
     SuperfluousElseRule.self,
     SwitchCaseAlignmentRule.self,
     SwitchCaseOnNewlineRule.self,

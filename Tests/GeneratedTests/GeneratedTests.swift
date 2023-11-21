@@ -1118,6 +1118,12 @@ class StrongIBOutletRuleGeneratedTests: SwiftLintTestCase {
     }
 }
 
+class StrongSelfAsThisRuleGeneratedTests: SwiftLintTestCase {
+    func testWithDefaultConfiguration() {
+        verifyRule(StrongSelfAsThisRule.description)
+    }
+}
+
 class SuperfluousElseRuleGeneratedTests: SwiftLintTestCase {
     func testWithDefaultConfiguration() {
         verifyRule(SuperfluousElseRule.description)
