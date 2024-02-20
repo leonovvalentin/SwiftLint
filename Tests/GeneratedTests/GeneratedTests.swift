@@ -1076,6 +1076,12 @@ class SingleTestClassRuleGeneratedTests: SwiftLintTestCase {
     }
 }
 
+class SingleWhitespaceRuleGeneratedTests: SwiftLintTestCase {
+    func testWithDefaultConfiguration() {
+        verifyRule(SingleWhitespaceRule.description)
+    }
+}
+
 class SortedEnumCasesRuleGeneratedTests: SwiftLintTestCase {
     func testWithDefaultConfiguration() {
         verifyRule(SortedEnumCasesRule.description)
